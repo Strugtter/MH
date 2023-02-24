@@ -51,12 +51,20 @@
 .pie{
     position: absolute;
     bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    
 }
 
-
-
+.centrar{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+}
 
 </style>
+
+
 <body class="body">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -104,17 +112,20 @@
           <h1 class="title">Home</h1>
         </div>
       </div>
-
-      <footer class="container pie p-4 rounded">
+      <footer class="pie p-4 rounded">
         <div class="d-lg-flex justify-content-between">
             <div>
-                <ul class="d-flex gap-3 list-unstyled">
+                <ul class="d-flex gap-3 list-unstyled centrar">
                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
                   <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                   <li><a href="#"><i class="bi bi-instagram"></i></a></li>
                   <i class="bi bi-facebook"></i>
                 </ul>
+              </div>
+              <div class = "centrar">
+                <p>Cali,Colombia Calle 34 # 5-45</p>
               </div>        
+              
         </div>
       </footer>
 </body>

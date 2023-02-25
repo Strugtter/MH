@@ -1,0 +1,108 @@
+.carousel-item {
+    height: 110px;
+    min-height: 80px;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-inner {
+    display: flex;
+  }
+
+  .carousel-item {
+    position: relative;
+    text-align: center;
+
+  }
+
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .nav-item {
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+
+  .body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 9em;
+  }
+
+  .pie {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #E5E5E5;
+  }
+
+  .centrar {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+.table {
+    width: 100%;
+    border: 1px solid #ccc;
+    /* border-collapse: collapse; */
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    ;
+  }
+  
+  .table caption {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+  }
+  
+  .table tr {
+   
+    border: 1px solid #000000;
+  }
+  
+  .table th, .table1 td {
+    font-size: 16px;
+    padding: 12px;
+    
+  }
+  
+  .table thead th{ 
+    text-transform: uppercase;
+  }
+
+  .cabeza{
+    background-color: #a5a0a0;
+  }
+  
+  .table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .table tbody td:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+   
+  }
+  
+  

@@ -7,7 +7,7 @@ export const printEvents = (container, arrayEventos) => {
         div.innerHTML = `
             <div class="border px-2">
             <figure class="border mt-2">
-              <img src="../image/Maraton3.jpg" class="img-fluid" alt="">
+              <img src=${eventos.image} class="img-fluid" alt="">
             </figure>
             <h2 class="text-center">Maratón</h2>
             <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

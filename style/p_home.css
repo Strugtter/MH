@@ -1,51 +1,53 @@
 .carousel-item {
-    height: 110px;
-    min-height: 80px;
-  }
+  height: 110px;
+  min-height: 80px;
+}
 
-  .carousel-item img {
-    height: 100%;
-    width: 100%;
-  }
+.carousel-item img {
+  height: 261px;
+  margin: 0% auto;
+  object-fit: cover;
 
-  .carousel-inner {
-    display: flex;
-  }
+}
 
-  .carousel-item {
-    position: relative;
-    text-align: center;
+.carousel-inner {
+  display: flex;
+}
 
-  }
+.carousel-item {
+  position: relative;
+  text-align: center;
 
-  .title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
 
-  }
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  .nav-item {
-    border: 1px solid gray;
-    border-radius: 5px;
-  }
+}
 
-  .body {
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 9em;
-  }
+.nav-item {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
 
-  .pie {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #E5E5E5;
-  }
+.body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 9em;
+}
 
-  .centrar {
-    display: flex;
-    align-items: flex-end;
-    align-content: flex-end;
-  }
+.pie {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #E5E5E5;
+}
+
+.centrar {
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+}

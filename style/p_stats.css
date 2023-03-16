@@ -1,22 +1,29 @@
 .carousel-item {
-    height: 110px;
-    min-height: 80px;
-  }
+  height: 110px;
+  min-height: 80px;
+}
 
-  .carousel-item img {
-    height: 100%;
-    width: 100%;
-  }
+.carousel-item img {
+  height: 261px;
+  margin: 0% auto;
+  object-fit: revert;
 
-  .carousel-inner {
-    display: flex;
-  }
+}
 
-  .carousel-item {
-    position: relative;
-    text-align: center;
+.carousel-inner {
+  display: flex;
+}
 
-  }
+.carousel-item {
+  position: relative;
+  text-align: center;
+
+}
+
+.carousel-item.active{
+  height: auto;
+
+}
 
   .title {
     position: absolute;
@@ -57,7 +64,11 @@
 }
 
 
-
+#img_event{
+  object-fit: cover;
+    height: auto;
+    width: 20%;
+}
 
 
 

@@ -1,4 +1,4 @@
-export const printDetails = (container, arrayEventos, allEvenets) => {
+export const printDetails = (container, arrayEventos) => {
     container.innerHTML = "";
 
     arrayEventos.forEach((eventos) => {

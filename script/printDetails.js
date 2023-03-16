@@ -6,4 +6,4 @@ let idClick = parseInt(idClickStr);
 
 
 const containerDetails = document.getElementById("details");
-document.addEventListener('DOMContentLoaded', () => printDetails(containerDetails, [data.eventos[idClick]], data.eventos));
+document.addEventListener('DOMContentLoaded', () => printDetails(containerDetails, [data.eventos[idClick]]));

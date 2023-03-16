@@ -24,7 +24,7 @@ document.addEventListener('click', (event) => {
     const { target } = event;
     sessionStorage.setItem("idClick", JSON.stringify(target.id));
     if(target.id){
-        window.location.href = "../pages/details.html";
+      window.location.href = "../pages/details.html";
     }
 })
 

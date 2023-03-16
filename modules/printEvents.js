@@ -3,12 +3,8 @@ export const printEvents = (container, arrayEventos, allEvenets) => {
 
     arrayEventos.forEach((eventos) => {
         const div = document.createElement("div");
-        div.classList.add("col-lg-3", "col-md-4", "col-sm-12", "d-flex", "flex-row-reverse" );
+        div.classList.add("col-lg-3", "col-md-4", "col-sm-12", "d-flex", "flex-row-reverse");
         div.innerHTML = `
-
-
-
-        
             <div class="border px-5">
             <figure class="mt-2">
               <img src=${eventos.image} class="img-fluid" alt="" id=img_card>

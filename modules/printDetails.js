@@ -4,7 +4,6 @@ export const printDetails = (container, arrayEventos) => {
     arrayEventos.forEach((eventos) => {
         const div = document.createElement("div");
         div.classList.add("row", "g-0", "bg-body-secondary", "position-relative");
-        // row g-0 bg-body-secondary position-relative
         div.innerHTML = `
         <div class="col-md-6 mb-md-0 p-md-4">
           <img src=${eventos.image} class="w-100" alt="...">

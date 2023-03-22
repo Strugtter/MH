@@ -23,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () => printEvents(containerHome, a
 document.addEventListener('click', (event) => {
     const { target } = event;
     sessionStorage.setItem("idClick", JSON.stringify(target.id));
+    console.log("hice clic");
+    console.log(target);
     if(target.id){
       window.location.href = "../pages/details.html";
     }

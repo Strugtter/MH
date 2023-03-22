@@ -29,13 +29,12 @@ export const printEvents = (container, arrayEventos, allEvenets) => {
       const eventDiv = document.createElement("div");
       eventDiv.classList.add("col", "col-lg-3", "col-md-4", "col-sm-12");
       eventDiv.innerHTML = `
-        <div class="border px-5">
+        <div class="border px-5 eventDiv">
           <figure class="mt-2">
             <img src=${eventos.image} class="img-fluid" alt="" id=img_card>
           </figure>
           <h2 class="text-center">${eventos.name}</h2>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.</p>
+          <p class="text-center">${eventos.description}.</p>
           <div class="d-grid d-md-flex mb-2 justify-content-md-between">
             <h5>$ ${eventos.price}</h5>
             <a id=${allEvenets.indexOf(eventos)} class="btn btn-primary"  role="button">detalles</a>
@@ -60,5 +59,3 @@ export const printEvents = (container, arrayEventos, allEvenets) => {
   container.appendChild(carousel);
 
 };
-
-
